@@ -5,11 +5,12 @@ import Login from './pages/Login';
 
 function App() {
   return (
+
     <Switch>
       <Route exact path="/" component={ Login } />
-      <Route exact path="/form" component={ Form } />
-
+      <Route path="/form" component={ Form } />
     </Switch>
+
   );
 }
 
