@@ -17,10 +17,13 @@
 
 2.2 - Após a instalação em seu terminal utilize o comando
 - 'docker-compose up -d'
+ 
 2.3 - verifique o id do container com o comando:
 -  docker ps -a
+  
 2.4 - logo após abra o terminal iterativo do docker com o comando:
 - docker exec -it <numero-do-container> bash
+ 
 2.5 - já dentro do container utilize  o comando
 - 'npm start'
 
