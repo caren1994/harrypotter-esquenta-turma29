@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Table from '../components/Table';
 import './Form.css';
 
-fields = 'yearOfBirth';
+const fields = 'yearOfBirth';
 export default function Form() {
   return (
     <div className="body">
