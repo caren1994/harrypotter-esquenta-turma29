@@ -1,0 +1,31 @@
+.divmaster{
+  display: flex;
+  justify-content: center;
+  }
+  .tabela{
+    margin-top: 50px;
+  border:1px solid  rgb(96, 190, 241);
+  
+    
+  }  
+  
+  .head{
+  border: 3px solid  rgb(96, 190, 241);
+  }
+  
+  table,
+  tr,
+  th,
+  td {
+  color: black;
+  border: 1px solid  rgb(96, 190, 241);
+  border-collapse: collapse;
+  } 
+  
+  th {
+  background-color: white;
+  }
+  
+  td {
+  background-color: white;
+  } 
