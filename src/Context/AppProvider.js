@@ -57,14 +57,18 @@ function AppProvider({ children }) {
       const arraysort = exist
         .sort((a, b) => Number(a[columnFilter]) - Number(b[columnFilter]));
       setData([...arraysort, ...notExist]);
+      setFilters([...filters,
+        { columnFilter, sort }]);
     } else if (sort.includes('DESC')) {
       const notExist = data.filter((e) => e[columnFilter] === null);
       const exist = data.filter((e) => e[columnFilter] !== null);
       const arraysort = exist
         .sort((a, b) => Number(b[columnFilter]) - Number(a[columnFilter]));
       setData([...arraysort, ...notExist]);
+      setFilters([...filters,
+        { columnFilter, sort }]);
     }
-  }, [columnFilter, sort, data]);
+  }, [columnFilter, sort, filters, data]);
 
   const context = useMemo(() => ({
     data,
