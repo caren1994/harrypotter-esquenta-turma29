@@ -32,30 +32,31 @@
 
 # Requisitos #
 
-## 1. Faça o setup inicial do Context API:
+ ## 1. Faça o setup inicial do Context API:
  -  Com os nomes AppContext e AppProvider
- -  o fetch construído na page Form deve estar no  AppProvider
+ -  o fetch construído no componente Table deve estar no  AppProvider
  -  a constante fields que se encontra na page form deve estar no AppProvider e ser atribuída a um state com o nome columnFilter e utilizado na tag select como defaultValue.
  -  todos os outros states e as funções da page Form devem ser feitas no AppProvider.
- 
- ## 2. Deve ser renderizado no componente Table os campos
+
+ ## 2. A page Login deve ter seus states no AppProvider e o name deve ser renderizado no componente Header
+
+ ## 3. Deve ser renderizado no componente Table os campos
  -  species,gender,house,yearOfBirth,alternate_names e image respectivamente.
  
- ## 3. Deve ser renderizado no componente table o resultado do inputText
+ ## 4. Deve ser renderizado no componente table o resultado do inputText
  -  Assim que for difitado uma letra no inputText deve aparecer na tela o resultado simultaneamente.
  
- ## 4. Filtrando o resultado de acordo com o campo columnFilter, as options "maior que", "menor que", "igual a " e o number
+ ## 5. Filtrando o resultado de acordo com o campo columnFilter, as options "maior que", "menor que", "igual a " e o number
  -  Ao clicar no button Filtrar deve ser renderizado na tabela o resultado do filtro selecionado.
  
- ## 5. Ordenando em Ascendente e Descendente
+ ## 6. Ordenando em Ascendente e Descendente
  - Após clicar no button ORDENAR deve ser renderizado no table as informações seguindo o filtro selecionado
  
- ## 6. O button EXCLUIR FILTROS deve aparecer assim que existir filtros
+ ## 7. O button EXCLUIR FILTROS deve aparecer assim que existir filtros
  - DICA: Quando for utilizar os filtros coloque em um state 
  
- ## 7. Quando clicar no button EXCLUIR FILTROS 
+ ## 8. Quando clicar no button EXCLUIR FILTROS 
  -  Deve ser renderizado no state as informações sem os filtros
  -  DICA: Guarde o valor da API em um state ex:initialStateApi
  
  ## Bons Estudos!!!
-
