@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Form from './pages/Form';
 import Login from './pages/Login';
+import './App.css';
 
 function App() {
   return (
