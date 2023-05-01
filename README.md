@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Esquenta para o Projeto StarWars #
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Projeto Harry Potter Personagens list ##
 
-## Available Scripts
 
-In the project directory, you can run:
+# Orientações # 
+1 - Clone o repositório do exercício
+- Use o comando: 
+`
+ git clone git@github.com:caren1994/harrypotter-esquenta-turma29.git
+`
 
-### `npm start`
+2 - Instale as dependências
+- `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.1 - Caso queira utilizar o Docker faça a instalação do docker em sua máquina utilizando o conteúdo do course backend "Dia 01-Utilizando containers Docker" 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.2 - Após a instalação em seu terminal utilize o comando
+- 'docker-compose up -d'
+ 
+2.3 - verifique o id do container com o comando:
+-  docker ps -a
+  
+2.4 - logo após abra o terminal iterativo do docker com o comando:
+- docker exec -it <numero-do-container> bash
+ 
+2.5 - já dentro do container utilize  o comando
+- 'npm start'
 
-### `npm test`
+3 - Nesse Projeto existem 2 branchs a branch Main e a branch gabarito
+- Depois de clonar e instalar as dependências, crie sua branch e bons estudos!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Requisitos #
 
-### `npm run build`
+ ## 1. Faça o setup inicial do Context API:
+ -  Com os nomes AppContext e AppProvider
+ -  o fetch construído no componente Table deve estar no  AppProvider
+ -  a constante fields que se encontra na page form deve estar no AppProvider e ser atribuída a um state com o nome columnFilter e utilizado na tag select como defaultValue.
+ -  todos os outros states e as funções da page Form devem ser feitas no AppProvider.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ## 2. A page Login deve ter seus states no AppProvider e o name deve ser renderizado no componente Header
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## 3. Deve ser renderizado no componente Table os campos
+ -  species,gender,house,yearOfBirth,alternate_names e image respectivamente.
+ 
+ ## 4. Deve ser renderizado no componente table o resultado do inputText
+ -  Assim que for difitado uma letra no inputText deve aparecer na tela o resultado simultaneamente.
+ 
+ ## 5. Filtrando o resultado de acordo com o campo columnFilter, as options "maior que", "menor que", "igual a " e o number
+ -  Ao clicar no button Filtrar deve ser renderizado na tabela o resultado do filtro selecionado.
+ 
+ ## 6. Ordenando em Ascendente e Descendente
+ - Após clicar no button ORDENAR deve ser renderizado no table as informações seguindo o filtro selecionado
+ 
+ ## 7. O button EXCLUIR FILTROS deve aparecer assim que existir filtros
+ - DICA: Quando for utilizar os filtros coloque em um state 
+ 
+ ## 8. Quando clicar no button EXCLUIR FILTROS 
+ -  Deve ser renderizado no state as informações sem os filtros
+ -  DICA: Guarde o valor da API em um state ex:initialStateApi
+ 
+ ## Bons Estudos!!!
