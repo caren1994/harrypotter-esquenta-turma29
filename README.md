@@ -1,4 +1,4 @@
-<!-- # Esquenta para o Projeto StarWars #
+# Esquenta para o Projeto StarWars #
 
 ## Projeto Harry Potter Personagens list ##
 
@@ -12,13 +12,15 @@
 
 2 - Instale as dependências
 - `npm install`
-- caso queira utilizar o Docker faça a instalação do docker em sua máquina e depois no seu terminal dentro do projeto utilize o comando :
+2.1 - Caso queira utilizar o Docker faça a instalação do docker em sua máquina utilizando o conteúdo do course backend "Dia 01-Utilizando containers Docker" 
+
+2.2 - Após a instalação em seu terminal utilize o comando
 - 'docker-compose up -d'
--  verifique o id do container com o comando:
+2.3 - verifique o id do container com o comando:
 -  docker ps -a
-- logo após abra o terminal iterativo do docker com o comando:
+2.4 - logo após abra o terminal iterativo do docker com o comando:
 - docker exec -it <numero-do-container> bash
-- já dentro do container rode o comando
+2.5 - já dentro do container utilize  o comando
 - 'npm start'
 
 
@@ -27,4 +29,5 @@
 
 # Requisitos #
 
-## 1. Faça o setup inicial do context:
+## 1. Faça o setup inicial do Context API:
+
