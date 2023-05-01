@@ -1,0 +1,46 @@
+.body{
+  justify-content: center;
+  align-items: center;
+}
+.label{
+  font-size: 20px;
+margin-right: 15px;
+margin-left: 5px;
+}
+.labelR{
+  font-size: 20px;
+  color:  rgb(96, 190, 241);
+margin-right: 15px;
+margin-left: 5px;
+}
+.form{
+
+  align-items: center;
+  justify-content: center;
+
+}
+.inputF{
+  margin-left: 10px;
+  border-radius: 5px ;
+}
+
+.buttonF{
+
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.buttonF:hover{
+  border-radius: 5px;
+  width: 50px;
+  height: 23px;
+  }
+  .buttonO{
+
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.buttonO:hover{
+  border-radius: 5px;
+  width: 88px;
+  height: 23px;
+  }

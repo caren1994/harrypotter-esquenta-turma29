@@ -1,0 +1,40 @@
+
+.containerForm{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image:url("../imagem/1303125.jpg");
+  background-position: center;
+
+ 
+}
+.containerInputs{
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: white;
+  width: 230px;
+  height: 230px;
+  align-items: center;
+  justify-content: center;
+
+  border-top: 8px solid #6C7A89;
+}
+.inputLogin{
+  border-radius: 8px;
+  width: 140px;
+  margin-bottom: 10px;
+}
+
+.enter{
+border-radius: 5px;
+
+}
+.enter:hover{
+  border-radius: 5px;
+  width: 50px;
+  height: 23px;
+  }
