@@ -36,8 +36,8 @@
  -  a constante fields que se encontra na page form deve estar no AppProvider e ser atribuída a um state com o nome columnFilter e utilizado na tag select como defaultValue.
  -  todos os outros states e as funções da page Form devem ser feitas no AppProvider.
  
- ## 2. Deve ser renderizado no componente Table os campor:
- -species,gender,house,yearOfBirth,alternate_names e image respectivamente.
+ ## 2. Deve ser renderizado no componente Table os campos:
+ -  species,gender,house,yearOfBirth,alternate_names e image respectivamente.
  
  ## 3. Deve ser renderizado no componente table o resultado do inputText
  -  Assim que for difitado uma letra no inputText deve aparecer na tela o resultado simultaneamente.
