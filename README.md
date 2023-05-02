@@ -46,7 +46,7 @@
  ## 4. Deve ser renderizado no componente table o resultado do inputText
  -  Assim que for digitado uma letra no inputText deve aparecer na tela o resultado simultaneamente.
  
- ## 5. Filtrando campo columnFilterde acordo com  as options "maior que", "menor que", "igual a " e o number
+ ## 5. Filtrando o campo columnFilter de acordo com  as options "maior que", "menor que", "igual a " e o number
  -  Ao clicar no button Filtrar deve ser renderizado na tabela o resultado do filtro selecionado.
  
  ## 6. Ordenando em Ascendente e Descendente
