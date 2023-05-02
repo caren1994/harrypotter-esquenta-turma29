@@ -44,7 +44,7 @@
  -  species,gender,house,yearOfBirth,alternate_names e image respectivamente.
  
  ## 4. Deve ser renderizado no componente table o resultado do inputText
- -  Assim que for difitado uma letra no inputText deve aparecer na tela o resultado simultaneamente.
+ -  Assim que for digitado uma letra no inputText deve aparecer na tela o resultado simultaneamente.
  
  ## 5. Filtrando o resultado de acordo com o campo columnFilter, as options "maior que", "menor que", "igual a " e o number
  -  Ao clicar no button Filtrar deve ser renderizado na tabela o resultado do filtro selecionado.
