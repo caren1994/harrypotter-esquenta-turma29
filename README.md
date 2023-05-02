@@ -11,7 +11,7 @@
 `
 
 2 - Instale as dependências
-- `npm install`
+- `npm install` caso de algum erro utilizar o comando `npm install --force`
 
 2.1 - Caso queira utilizar o Docker faça a instalação do docker em sua máquina utilizando o conteúdo do course backend "Dia 01-Utilizando containers Docker" 
 
